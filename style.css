@@ -1,0 +1,31 @@
+.limite {
+    color: red;
+}
+
+.tweet {
+    display: inline-block;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contenant { 
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    background: #ff0077;
+    color: #fff;
+    font: 1em sans-serif;
+  }
+  li {
+    list-style-type: none;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+    
+    

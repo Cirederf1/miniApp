@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!-- <script defer src="vue.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div id="app">
+        <p>{{reversedMessage}}</p>
+        <input type="text" v-model="message">
+        <input type="checkbox" v-model="cochee">
+        <label for="">{{cochee ? 'cochée' : "non cochée"}}</label>
+    </div> -->
+
+    <!-- <div id="app">
+        <form @submit.prevent="submit">
+            <textarea v-model="message">{{message}}</textarea>
+            <p :class="{limite:limiteAtteinte}">{{nbCharRestant}}</p>
+            <button :disabled="limiteAtteinte">Tweet</button>
+            <input type="checkbox" v-model="cochee">
+            <label for="">{{cochee ? 'Photo ajoutée' : 'Pas de photo'}}</label>
+        </form>
+
+
+
+        <div id = "contenant">
+            <div v-for="tweet in tweets" class="tweet">
+                <tweet :text="tweet.text" :photo="tweet.photo" :srcphoto ="tweet.srcPhoto"></tweet>
+            </div>
+        </div>
+
+        <button @click="plus">+</button>
+        <button @click="moins">-</button>
+        <button @click="reset">reset</button>
+        <p>{{compteur}}</p>
+    </div> -->
+
+    <h1>Oh, my lovely website</h1>
+    <ul>
+        <li><img src="../img/a.jpg" alt=""></li>
+        <li><img src="../img/b.jpg" alt=""></li>
+        <li><img src="../img/c.jpg" alt=""></li>
+        <li><img src="../img/d.jpg" alt=""></li>
+    </ul>
+
+
+    <script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js');
+      }
+    </script>
+
+</body>
+</html>
