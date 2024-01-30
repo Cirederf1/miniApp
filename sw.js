@@ -7,10 +7,10 @@ self.addEventListener('install', (event) => {
             'index.html',
             'style.css',
             'vue.js',
-            './img/a.jpg',
-            './img/b.jpg',
-            './img/c.jpg',
-            './img/d.jpg',
+            'img/a.jpg',
+            'img/b.jpg',
+            'img/c.jpg',
+            'img/d.jpg',
          ]);
         })
         .then(() => {
